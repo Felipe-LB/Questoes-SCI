@@ -18,6 +18,7 @@ public class Atividade05 {
             for (int j = 0; j < 4; j++) {
                 System.out.print("Digite a nota " + (j + 1) + " do aluno " + nomes[i] + ": ");
                 notas[i][j] = input.nextDouble();
+                input.NextLine();
             }
         }
 
